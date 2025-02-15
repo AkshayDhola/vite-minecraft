@@ -2,7 +2,6 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls, ScrollControls } from "@react-three/drei";
 import Steve from "./componets/Steve";
-import Content from "./componets/Content";
 function App() {
   return (
     <>
@@ -37,7 +36,6 @@ function App() {
           <Steve />
         </ScrollControls>
       </Canvas>
-    <Content/>
     </div>
     </>
   );
